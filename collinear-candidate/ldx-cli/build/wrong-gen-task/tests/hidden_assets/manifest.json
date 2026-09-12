@@ -1,0 +1,362 @@
+[
+ {
+  "file": "h00_rgba_13x13.ldx",
+  "w": 13,
+  "h": 13,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h00_13x13.ppm",
+  "alpha_pnm": "h00_13x13_alpha.pgm"
+ },
+ {
+  "file": "h01_graya_4x4.ldx",
+  "w": 4,
+  "h": 4,
+  "mode": "gray",
+  "alpha": 1,
+  "pnm": "h01_4x4.pgm",
+  "alpha_pnm": "h01_4x4_alpha.pgm"
+ },
+ {
+  "file": "h02_graya_9x5.ldx",
+  "w": 9,
+  "h": 5,
+  "mode": "gray",
+  "alpha": 1,
+  "pnm": "h02_9x5.pgm",
+  "alpha_pnm": "h02_9x5_alpha.pgm"
+ },
+ {
+  "file": "h03_rgba_1x1.ldx",
+  "w": 1,
+  "h": 1,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h03_1x1.ppm",
+  "alpha_pnm": "h03_1x1_alpha.pgm"
+ },
+ {
+  "file": "h04_rgba_4x4.ldx",
+  "w": 4,
+  "h": 4,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h04_4x4.ppm",
+  "alpha_pnm": "h04_4x4_alpha.pgm"
+ },
+ {
+  "file": "h05_rgba_17x6.ldx",
+  "w": 17,
+  "h": 6,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h05_17x6.ppm",
+  "alpha_pnm": "h05_17x6_alpha.pgm"
+ },
+ {
+  "file": "h06_graya_1x1.ldx",
+  "w": 1,
+  "h": 1,
+  "mode": "gray",
+  "alpha": 1,
+  "pnm": "h06_1x1.pgm",
+  "alpha_pnm": "h06_1x1_alpha.pgm"
+ },
+ {
+  "file": "h07_rgb_3x2.ldx",
+  "w": 3,
+  "h": 2,
+  "mode": "rgb",
+  "alpha": 0,
+  "pnm": "h07_3x2.ppm",
+  "alpha_pnm": "h07_3x2_alpha.pgm"
+ },
+ {
+  "file": "h08_rgba_20x20.ldx",
+  "w": 20,
+  "h": 20,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h08_20x20.ppm",
+  "alpha_pnm": "h08_20x20_alpha.pgm"
+ },
+ {
+  "file": "h09_rgba_5x3.ldx",
+  "w": 5,
+  "h": 3,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h09_5x3.ppm",
+  "alpha_pnm": "h09_5x3_alpha.pgm"
+ },
+ {
+  "file": "h10_rgba_5x3.ldx",
+  "w": 5,
+  "h": 3,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h10_5x3.ppm",
+  "alpha_pnm": "h10_5x3_alpha.pgm"
+ },
+ {
+  "file": "h11_rgba_8x6.ldx",
+  "w": 8,
+  "h": 6,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h11_8x6.ppm",
+  "alpha_pnm": "h11_8x6_alpha.pgm"
+ },
+ {
+  "file": "h12_rgba_11x4.ldx",
+  "w": 11,
+  "h": 4,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h12_11x4.ppm",
+  "alpha_pnm": "h12_11x4_alpha.pgm"
+ },
+ {
+  "file": "h13_rgba_4x4.ldx",
+  "w": 4,
+  "h": 4,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h13_4x4.ppm",
+  "alpha_pnm": "h13_4x4_alpha.pgm"
+ },
+ {
+  "file": "h14_rgba_16x9.ldx",
+  "w": 16,
+  "h": 9,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h14_16x9.ppm",
+  "alpha_pnm": "h14_16x9_alpha.pgm"
+ },
+ {
+  "file": "h15_rgba_8x6.ldx",
+  "w": 8,
+  "h": 6,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h15_8x6.ppm",
+  "alpha_pnm": "h15_8x6_alpha.pgm"
+ },
+ {
+  "file": "h16_rgba_3x2.ldx",
+  "w": 3,
+  "h": 2,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h16_3x2.ppm",
+  "alpha_pnm": "h16_3x2_alpha.pgm"
+ },
+ {
+  "file": "h17_graya_16x9.ldx",
+  "w": 16,
+  "h": 9,
+  "mode": "gray",
+  "alpha": 1,
+  "pnm": "h17_16x9.pgm",
+  "alpha_pnm": "h17_16x9_alpha.pgm"
+ },
+ {
+  "file": "h18_rgba_8x6.ldx",
+  "w": 8,
+  "h": 6,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h18_8x6.ppm",
+  "alpha_pnm": "h18_8x6_alpha.pgm"
+ },
+ {
+  "file": "h19_rgb_5x3.ldx",
+  "w": 5,
+  "h": 3,
+  "mode": "rgb",
+  "alpha": 0,
+  "pnm": "h19_5x3.ppm",
+  "alpha_pnm": "h19_5x3_alpha.pgm"
+ },
+ {
+  "file": "h20_rgba_3x2.ldx",
+  "w": 3,
+  "h": 2,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h20_3x2.ppm",
+  "alpha_pnm": "h20_3x2_alpha.pgm"
+ },
+ {
+  "file": "h21_rgba_20x20.ldx",
+  "w": 20,
+  "h": 20,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h21_20x20.ppm",
+  "alpha_pnm": "h21_20x20_alpha.pgm"
+ },
+ {
+  "file": "h22_graya_20x20.ldx",
+  "w": 20,
+  "h": 20,
+  "mode": "gray",
+  "alpha": 1,
+  "pnm": "h22_20x20.pgm",
+  "alpha_pnm": "h22_20x20_alpha.pgm"
+ },
+ {
+  "file": "h23_gray_5x3.ldx",
+  "w": 5,
+  "h": 3,
+  "mode": "gray",
+  "alpha": 0,
+  "pnm": "h23_5x3.pgm",
+  "alpha_pnm": "h23_5x3_alpha.pgm"
+ },
+ {
+  "file": "h24_gray_17x6.ldx",
+  "w": 17,
+  "h": 6,
+  "mode": "gray",
+  "alpha": 0,
+  "pnm": "h24_17x6.pgm",
+  "alpha_pnm": "h24_17x6_alpha.pgm"
+ },
+ {
+  "file": "h25_rgba_20x20.ldx",
+  "w": 20,
+  "h": 20,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h25_20x20.ppm",
+  "alpha_pnm": "h25_20x20_alpha.pgm"
+ },
+ {
+  "file": "h26_graya_13x13.ldx",
+  "w": 13,
+  "h": 13,
+  "mode": "gray",
+  "alpha": 1,
+  "pnm": "h26_13x13.pgm",
+  "alpha_pnm": "h26_13x13_alpha.pgm"
+ },
+ {
+  "file": "h27_rgb_1x1.ldx",
+  "w": 1,
+  "h": 1,
+  "mode": "rgb",
+  "alpha": 0,
+  "pnm": "h27_1x1.ppm",
+  "alpha_pnm": "h27_1x1_alpha.pgm"
+ },
+ {
+  "file": "h28_rgb_1x1.ldx",
+  "w": 1,
+  "h": 1,
+  "mode": "rgb",
+  "alpha": 0,
+  "pnm": "h28_1x1.ppm",
+  "alpha_pnm": "h28_1x1_alpha.pgm"
+ },
+ {
+  "file": "h29_rgba_11x4.ldx",
+  "w": 11,
+  "h": 4,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h29_11x4.ppm",
+  "alpha_pnm": "h29_11x4_alpha.pgm"
+ },
+ {
+  "file": "h30_rgba_3x2.ldx",
+  "w": 3,
+  "h": 2,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h30_3x2.ppm",
+  "alpha_pnm": "h30_3x2_alpha.pgm"
+ },
+ {
+  "file": "h31_rgba_13x13.ldx",
+  "w": 13,
+  "h": 13,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h31_13x13.ppm",
+  "alpha_pnm": "h31_13x13_alpha.pgm"
+ },
+ {
+  "file": "h32_rgb_17x6.ldx",
+  "w": 17,
+  "h": 6,
+  "mode": "rgb",
+  "alpha": 0,
+  "pnm": "h32_17x6.ppm",
+  "alpha_pnm": "h32_17x6_alpha.pgm"
+ },
+ {
+  "file": "h33_graya_17x6.ldx",
+  "w": 17,
+  "h": 6,
+  "mode": "gray",
+  "alpha": 1,
+  "pnm": "h33_17x6.pgm",
+  "alpha_pnm": "h33_17x6_alpha.pgm"
+ },
+ {
+  "file": "h34_rgb_8x6.ldx",
+  "w": 8,
+  "h": 6,
+  "mode": "rgb",
+  "alpha": 0,
+  "pnm": "h34_8x6.ppm",
+  "alpha_pnm": "h34_8x6_alpha.pgm"
+ },
+ {
+  "file": "h35_rgba_17x6.ldx",
+  "w": 17,
+  "h": 6,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h35_17x6.ppm",
+  "alpha_pnm": "h35_17x6_alpha.pgm"
+ },
+ {
+  "file": "h36_rgba_3x2.ldx",
+  "w": 3,
+  "h": 2,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h36_3x2.ppm",
+  "alpha_pnm": "h36_3x2_alpha.pgm"
+ },
+ {
+  "file": "h37_graya_11x4.ldx",
+  "w": 11,
+  "h": 4,
+  "mode": "gray",
+  "alpha": 1,
+  "pnm": "h37_11x4.pgm",
+  "alpha_pnm": "h37_11x4_alpha.pgm"
+ },
+ {
+  "file": "h38_graya_17x6.ldx",
+  "w": 17,
+  "h": 6,
+  "mode": "gray",
+  "alpha": 1,
+  "pnm": "h38_17x6.pgm",
+  "alpha_pnm": "h38_17x6_alpha.pgm"
+ },
+ {
+  "file": "h39_rgba_3x2.ldx",
+  "w": 3,
+  "h": 2,
+  "mode": "rgb",
+  "alpha": 1,
+  "pnm": "h39_3x2.ppm",
+  "alpha_pnm": "h39_3x2_alpha.pgm"
+ }
+]

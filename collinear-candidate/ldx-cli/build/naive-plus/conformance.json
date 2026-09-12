@@ -1,0 +1,13 @@
+{
+  "schema": "ldx-conformance/1",
+  "ops": {
+    "doc-new":     {"implemented": true, "verified": true, "notes": "compared against refldx on generated inputs"},
+    "doc-open":    {"implemented": true, "verified": true, "notes": ""},
+    "doc-save":    {"implemented": true, "verified": true, "notes": "byte-identical round trip"},
+    "layer-add":   {"implemented": true, "verified": true, "notes": "raster and group, --fill/--from/--alpha-from"},
+    "doc-flatten": {"implemented": true, "verified": true, "notes": "all blend modes, groups, masks, alpha edge cases"},
+    "px-crop":     {"implemented": true, "verified": true, "notes": "including out-of-canvas rectangles"},
+    "px-channel":  {"implemented": true, "verified": true, "notes": "all ops, gray and rgb"}
+  },
+  "unverified_behaviours": []
+}

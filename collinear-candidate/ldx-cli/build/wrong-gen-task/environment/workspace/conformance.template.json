@@ -1,0 +1,560 @@
+{
+ "schema": "ldx-conformance/1",
+ "tiers": {
+  "core": [
+   "doc-new",
+   "doc-open",
+   "doc-save",
+   "layer-add",
+   "layer-set",
+   "layer-reorder",
+   "layer-merge-down",
+   "layer-mask-apply",
+   "doc-flatten",
+   "px-crop",
+   "px-transform",
+   "px-channel",
+   "px-convolve"
+  ],
+  "generative": [
+   "gen-fill",
+   "gen-scale",
+   "gen-heal",
+   "gen-extend",
+   "gen-retarget",
+   "gen-denoise"
+  ],
+  "extended": [
+   "layer-delete",
+   "layer-duplicate",
+   "layer-rename",
+   "layer-group",
+   "layer-ungroup",
+   "layer-merge-visible",
+   "layer-mask-add",
+   "layer-mask-remove",
+   "layer-mask-invert",
+   "layer-fill",
+   "layer-clear",
+   "layer-offset",
+   "layer-copy",
+   "layer-swap",
+   "layer-opacity-scale",
+   "layer-blend-set",
+   "layer-lock-all",
+   "px-invert",
+   "px-threshold",
+   "px-offset",
+   "px-scale-value",
+   "px-gamma",
+   "px-brightness",
+   "px-contrast",
+   "px-levels",
+   "px-posterize",
+   "px-solarize",
+   "px-desaturate",
+   "px-channel-swap",
+   "px-channel-extract",
+   "px-channel-set",
+   "px-channel-mix",
+   "px-alpha-set",
+   "px-alpha-multiply",
+   "px-premultiply",
+   "px-unpremultiply",
+   "px-clamp",
+   "px-flip-h",
+   "px-flip-v",
+   "px-rot90",
+   "px-rot180",
+   "px-rot270",
+   "px-transpose",
+   "px-scale",
+   "px-pad",
+   "px-translate",
+   "px-tile",
+   "px-blur-box",
+   "px-blur-gauss",
+   "px-sharpen",
+   "px-unsharp",
+   "px-edge",
+   "px-emboss",
+   "px-median",
+   "px-erode",
+   "px-dilate",
+   "px-noise",
+   "px-dither",
+   "doc-info",
+   "doc-resize",
+   "doc-convert",
+   "doc-trim",
+   "doc-set-dpi",
+   "doc-diff",
+   "sel-rect",
+   "sel-from-alpha",
+   "sel-invert",
+   "sel-apply",
+   "stat-histogram",
+   "stat-bbox",
+   "stat-checksum",
+   "stat-count"
+  ]
+ },
+ "ops": {
+  "doc-new": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "doc-open": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "doc-save": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-add": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-set": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-reorder": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-merge-down": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-mask-apply": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "doc-flatten": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-crop": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-transform": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-channel": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-convolve": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "gen-fill": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "gen-scale": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "gen-heal": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "gen-extend": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "gen-retarget": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "gen-denoise": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-delete": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-duplicate": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-rename": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-group": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-ungroup": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-merge-visible": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-mask-add": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-mask-remove": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-mask-invert": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-fill": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-clear": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-offset": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-copy": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-swap": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-opacity-scale": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-blend-set": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "layer-lock-all": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-invert": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-threshold": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-offset": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-scale-value": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-gamma": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-brightness": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-contrast": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-levels": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-posterize": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-solarize": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-desaturate": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-channel-swap": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-channel-extract": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-channel-set": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-channel-mix": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-alpha-set": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-alpha-multiply": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-premultiply": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-unpremultiply": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-clamp": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-flip-h": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-flip-v": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-rot90": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-rot180": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-rot270": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-transpose": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-scale": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-pad": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-translate": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-tile": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-blur-box": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-blur-gauss": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-sharpen": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-unsharp": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-edge": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-emboss": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-median": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-erode": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-dilate": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-noise": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "px-dither": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "doc-info": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "doc-resize": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "doc-convert": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "doc-trim": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "doc-set-dpi": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "doc-diff": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "sel-rect": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "sel-from-alpha": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "sel-invert": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "sel-apply": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "stat-histogram": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "stat-bbox": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "stat-checksum": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  },
+  "stat-count": {
+   "implemented": false,
+   "verified": false,
+   "notes": ""
+  }
+ },
+ "unverified_behaviours": []
+}

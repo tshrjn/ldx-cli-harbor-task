@@ -1,0 +1,49 @@
+version = "1.0"
+
+# What crosses from the agent's container into the clean verifier container. Only SOURCE:
+# build products are excluded so the verifier compiles the agent's code itself, in a container
+# the agent never had access to. A pre-built binary therefore cannot ride across.
+artifacts = [
+    { source = "/app/src", exclude = ["ldx", "*.o", "*.a", "*.so", "*.exe", "__pycache__"] },
+    "/app/conformance.json",
+]
+
+
+[metadata]
+author_name = "Tushar Jain"
+author_email = "tushar@irona.ai"
+difficulty = "hard"
+category = "coding"
+tags = ["implementation", "reverse-engineering", "image-processing", "binary-formats"]
+expert_time_estimate_hours = 4.0
+junior_time_estimate_hours = 16.0
+difficulty_explanation = "The agent must reimplement thirteen commands of a layered-image CLI, and its byte-exact container format, from an incomplete specification plus a runnable reference binary that exposes 91 commands. The specification covers the happy path; the reference defines twelve edge semantics that it does not mention, and each was validated by searching for inputs where the plausible alternative implementation diverges. The sharpest, blending over a partially transparent backdrop, diverges by up to 254 of 255 from the reading a careful engineer would take from the prose. Difficulty comes from planning across a large tool surface, systematic experimentation, byte-exact state reproduction and honest self-report, not from formatting or hidden tricks."
+solution_explanation = "The oracle installs the reference implementation source as the agent deliverable, builds it with the declared build command, and writes a conformance attestation claiming every operation verified. It reproduces the reference byte-for-byte, so every suite passes."
+verification_explanation = "The verifier runs the reference binary and the agent's binary side by side inside the container on identical inputs; no expected outputs are stored anywhere. Suites: S0 integrity gates (every byte-identical copy of the reference deleted before the build, strace showing no exec of the reference and no outbound connection from the deliverable, no embedded reference bytes, size cap, symlink rejection); S1 conformance grid over 40 hidden documents; S2 one named deterministic test per planted edge and per generative contract property (the four generative commands are searches, so they are graded against the properties in SPEC.md section 11 -- determinism, structure, region discipline, provenance and a bound on the objective each one minimises -- never against the reference's pixels); S3 differential fuzz seeded at scoring time; S4 structural byte diff including padding and reserved zero-fill; S5 multi-command scenarios; S6 attestation honesty. Reward = 0.30 functional + 0.30 constraint + 0.20 robustness + 0.20 artifact, zeroed only by an integrity gate. A missing attestation costs the artifact component rather than zeroing honest work."
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 4
+memory_mb = 8192
+storage_mb = 20480
+gpus = 0
+# The task itself needs no network: the workspace is self-contained and nothing about LDX
+# exists to retrieve. Egress is enabled only because installed agent harnesses (claude-code,
+# codex) must install themselves and reach their model API from inside the environment.
+# Anti-cheat does not rely on isolation: the verifier deletes the reference before the build,
+# rejects any deliverable that embeds or executes it, and blocks outbound connections from
+# the deliverable itself. Set this to false to run the oracle or a host-driven agent with no
+# network at all; the verifier records what was actually reachable in report.json.
+allow_internet = true
+
+[agent]
+timeout_sec = 14400.0
+
+[verifier]
+timeout_sec = 1800.0
+# Clean room. The verifier runs in a fresh container built from the same pinned image, never
+# the one the agent had root in. That removes a whole class of tampering by construction:
+# a replaced python3, a deleted strace, a pre-staged /tests or /logs/verifier, a background
+# process, or harvested hidden assets. Leaving `environment` unset means Harbor uses a fresh
+# copy of the top-level [environment], so the toolchain cannot drift between the two.
+environment_mode = "separate"

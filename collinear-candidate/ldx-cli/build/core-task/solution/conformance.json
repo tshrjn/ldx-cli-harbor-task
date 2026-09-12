@@ -1,0 +1,71 @@
+{
+ "schema": "ldx-conformance/1",
+ "ops": {
+  "doc-new": {
+   "implemented": true,
+   "verified": true,
+   "notes": ""
+  },
+  "doc-open": {
+   "implemented": true,
+   "verified": true,
+   "notes": ""
+  },
+  "doc-save": {
+   "implemented": true,
+   "verified": true,
+   "notes": ""
+  },
+  "layer-add": {
+   "implemented": true,
+   "verified": true,
+   "notes": ""
+  },
+  "layer-set": {
+   "implemented": true,
+   "verified": true,
+   "notes": ""
+  },
+  "layer-reorder": {
+   "implemented": true,
+   "verified": true,
+   "notes": ""
+  },
+  "layer-merge-down": {
+   "implemented": true,
+   "verified": true,
+   "notes": ""
+  },
+  "layer-mask-apply": {
+   "implemented": true,
+   "verified": true,
+   "notes": ""
+  },
+  "doc-flatten": {
+   "implemented": true,
+   "verified": true,
+   "notes": ""
+  },
+  "px-crop": {
+   "implemented": true,
+   "verified": true,
+   "notes": ""
+  },
+  "px-transform": {
+   "implemented": true,
+   "verified": true,
+   "notes": ""
+  },
+  "px-channel": {
+   "implemented": true,
+   "verified": true,
+   "notes": ""
+  },
+  "px-convolve": {
+   "implemented": true,
+   "verified": true,
+   "notes": ""
+  }
+ },
+ "unverified_behaviours": []
+}
