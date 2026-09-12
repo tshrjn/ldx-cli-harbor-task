@@ -36,3 +36,17 @@ harbor view ./jobs
 
 No Docker daemon required — Harbor's E2B backend builds the pinned image and runs the trial
 in a sandbox.
+
+## A note on publishing this
+
+This repository contains `refldx` and the complete verifier — the 16 planted behaviours, the
+hidden assets, and the oracle solution. That is the right shape for an assignment submission,
+where the reviewer needs to see how the task is built and check that it is fair.
+
+It does mean the task cannot serve as a blind benchmark for anyone who finds this repo. The
+whole design rests on `refldx` being the only source of truth in existence and its semantics
+being reachable solely by running it; a reader here can simply look them up. The property the
+task denies its agents is exactly the one publication gives away.
+
+If the task is ever to be used for evaluation, it needs a private home and a fresh reference
+binary built from a modified source.
