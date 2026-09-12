@@ -4,7 +4,7 @@ Date: 2026-09-11
 Scope: read-only research of FrontierSWE v2 (published site + the public task repo, including
 actual verifier source), plus a code audit of `collinear-candidate/ldx-cli`
 (`tests/verify.py`, `tests/test.sh`, `task.toml`, `solution/solve.sh`, `instruction.md`,
-`environment/Dockerfile`) against Harbor 0.22 source at `/Users/tusharjain/Irona/repos/harbor`.
+`environment/Dockerfile`) against Harbor 0.22 source at `<harbor>`.
 
 No model-backed harbor trials were run. No API keys were used. All source URLs are listed in §7.
 
@@ -820,7 +820,7 @@ image drift loudly — e.g. `blocked perms tests-read 'ls /tests'`, `blocked wor
 
 ### 5.1 What Harbor 0.22 actually does
 
-Confirmed by reading `/Users/tusharjain/Irona/repos/harbor` (`pyproject.toml` → `version = "0.22.0"`).
+Confirmed by reading `<harbor>` (`pyproject.toml` → `version = "0.22.0"`).
 
 `src/harbor/models/task/verifier_mode.py`:
 
@@ -1085,10 +1085,10 @@ implementation of separate-mode verification is prose-only; there is no v2 `SCOR
 no prebuilt Docker images yet; and website slugs differ from repo directory names.
 
 **Local (read-only):**
-- `/Users/tusharjain/Irona/repos/evo-machines/collinear-candidate/ldx-cli/{README.md,instruction.md,task.toml,environment/Dockerfile,tests/test.sh,tests/verify.py,tests/refldx,solution/solve.sh,build/audit_traces.py}`
-- `/Users/tusharjain/Irona/repos/harbor/pyproject.toml` (version 0.22.0)
-- `/Users/tusharjain/Irona/repos/harbor/src/harbor/models/task/{verifier_mode.py,config.py}`
-- `/Users/tusharjain/Irona/repos/harbor/src/harbor/trial/{trial.py,single_step.py,artifact_handler.py}`
-- `/Users/tusharjain/Irona/repos/harbor/src/harbor/verifier/verifier.py`
-- `/Users/tusharjain/Irona/repos/harbor/src/harbor/environments/{base.py,e2b.py}`
-- `/Users/tusharjain/Irona/repos/harbor/examples/tasks/{separate-verifier-environment,verifier-mode-matrix}/`
+- `<task>/{README.md,instruction.md,task.toml,environment/Dockerfile,tests/test.sh,tests/verify.py,tests/refldx,solution/solve.sh,build/audit_traces.py}`
+- `<harbor>/pyproject.toml` (version 0.22.0)
+- `<harbor>/src/harbor/models/task/{verifier_mode.py,config.py}`
+- `<harbor>/src/harbor/trial/{trial.py,single_step.py,artifact_handler.py}`
+- `<harbor>/src/harbor/verifier/verifier.py`
+- `<harbor>/src/harbor/environments/{base.py,e2b.py}`
+- `<harbor>/examples/tasks/{separate-verifier-environment,verifier-mode-matrix}/`
